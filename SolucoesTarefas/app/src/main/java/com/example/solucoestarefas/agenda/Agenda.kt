@@ -5,7 +5,7 @@ import com.example.solucoestarefas.Pessoa
 class Agenda {
     private val listaContatos = mutableListOf<Pessoa>()
     private var indiceAtual = 0
-private val mensagem = ""
+
     fun salvarContato(novoContato: Pessoa): Boolean {
         for(contato in listaContatos) {
             if(contato.telefone == novoContato.telefone) {

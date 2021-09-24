@@ -18,83 +18,83 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btTrocarDado1"
+        android:id="@+id/dados_btTrocarDado1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:text="Trocar"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado1Lados"
-        app:layout_constraintStart_toStartOf="@+id/txtDado1Lados"
-        app:layout_constraintTop_toTopOf="@+id/txtDado1Lados"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado1Lados"
+        app:layout_constraintStart_toStartOf="@+id/dados_txtDado1Lados"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado1Lados"
         app:layout_constraintVertical_bias="0.521" />
 
     <TextView
-        android:id="@+id/txtDado1Lados"
+        android:id="@+id/dados_txtDado1Lados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado1"
-        app:layout_constraintStart_toStartOf="@+id/txtDado1"
-        app:layout_constraintTop_toTopOf="@+id/txtDado1"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado1"
+        app:layout_constraintStart_toStartOf="@+id/dados_txtDado1"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado1"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btTrocarDado2"
+        android:id="@+id/dados_btTrocarDado2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="232dp"
         android:text="Trocar"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado2Lados"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado2Lados"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtDado2Lados"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado2Lados"
         app:layout_constraintVertical_bias="0.391" />
 
     <TextView
-        android:id="@+id/txtDado2Lados"
+        android:id="@+id/dados_txtDado2Lados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado2"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtDado2"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado2"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/txtDado3Lados"
+        android:id="@+id/dados_txtDado3Lados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado3"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtDado3"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado3"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/txtDado3"
+        android:id="@+id/dados_txtDado3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="28dp"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtDado2" />
+        app:layout_constraintTop_toBottomOf="@+id/dados_txtDado2" />
 
     <Button
-        android:id="@+id/btTrocarDado3"
+        android:id="@+id/dados_btTrocarDado3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="232dp"
         android:text="Trocar"
-        app:layout_constraintBottom_toBottomOf="@+id/txtDado3Lados"
+        app:layout_constraintBottom_toBottomOf="@+id/dados_txtDado3Lados"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtDado3Lados"
+        app:layout_constraintTop_toTopOf="@+id/dados_txtDado3Lados"
         app:layout_constraintVertical_bias="0.217" />
 
     <Button
-        android:id="@+id/btSortearDados"
+        android:id="@+id/dados_btSortearDados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -102,20 +102,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtDado3" />
+        app:layout_constraintTop_toBottomOf="@+id/dados_txtDado3" />
 
     <TextView
-        android:id="@+id/txtDado2"
+        android:id="@+id/dados_txtDado2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="36dp"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtDado1" />
+        app:layout_constraintTop_toBottomOf="@+id/dados_txtDado1" />
 
     <TextView
-        android:id="@+id/txtDado1"
+        android:id="@+id/dados_txtDado1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"

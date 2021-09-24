@@ -1,5 +1,6 @@
 package com.example.solucoestarefas
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -11,8 +12,13 @@ class TelaInicialActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        binding = ActivityTelaInicialBinding.inflate(layoutInflater)
 
-        Toast.makeText(this, "Teste", Toast.LENGTH_SHORT).show()
-        setContentView(R.layout.activity_tela_inicial)
+        binding.btSorteioDados.setOnClickListener {
+            val intent = Intent(this, SorteioDadosActivity::class.java)
+            startActivity(intent)
+        }
+
+        setContentView(binding.root)
     }
 }
